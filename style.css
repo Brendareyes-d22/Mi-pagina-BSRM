@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Delicius+Handrawn&display=swap');
+header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(168, 153, 153);
+    width: 100%;
+    font-size:25px;
+}
+a {
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  
+}
+header ul li {
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+    height: 160px;
+}
+
+
+h1{
+
+    font-size: 34px;
+color: rgb(77, 41, 41);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{ 
+    font-size: 20px;
+color:rgb(59, 49, 68);
+}
+
+.contenedor { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(190, 131, 245);
+}
+.presentacion {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 40px;
+    color:rgb(16, 9, 24);
+}
+
+.presentacion p{
+    width: 70%;
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Delicius Handrawn", cursive;
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img {
+    border-radius: 50%;
+}
